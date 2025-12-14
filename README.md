@@ -1,4 +1,4 @@
-# Rewind Exporter (Electron App)
+# RewindExporter (Electron App)
 
 > **DISCLAIMER:** This is an **unofficial** tool created by the open-source community. It is **not** associated with, endorsed by, or affiliated with Rewind.ai or its parent company. Use this tool at your own risk. The authors are not liable for any data loss, corruption, or other issues that may arise from its use.
 
@@ -45,11 +45,11 @@ The installer will be located in the `dist/` directory.
 Since this is a free, open-source tool and not signed with a paid Apple Developer ID, macOS may erroneously report the application as "damaged" and suggest moving it to the Bin.
 
 **To fix this (required for first run):**
-1.  Move `Rewind Exporter` to your **Applications** folder.
+1.  Move `RewindExporter` to your **Applications** folder.
 2.  Open your Terminal (Command + Space, type "Terminal").
 3.  Run the following command:
     ```bash
-    xattr -cr /Applications/Rewind\ Exporter.app
+    xattr -cr /Applications/RewindExporter.app
     ```
 4.  You can now open the app normally!
 

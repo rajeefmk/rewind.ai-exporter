@@ -1,7 +1,7 @@
 {
   "name": "rewind-exporter",
   "version": "1.0.0",
-  "productName": "Rewind Exporter",
+  "productName": "RewindExporter",
   "description": "Export your Rewind history into a single .mp4, locally",
   "main": "src/main.js",
   "scripts": {
