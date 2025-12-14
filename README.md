@@ -42,14 +42,16 @@ The installer will be located in the `dist/` directory.
 ## Installation & Troubleshooting
 
 **Note for macOS Users:**
-Because this is a free, open-source tool and not signed with a paid Apple Developer ID, macOS may block the application from opening by default, stating it is "damaged" or "from an unidentified developer".
+Since this is a free, open-source tool and not signed with a paid Apple Developer ID, macOS may erroneously report the application as "damaged" and suggest moving it to the Bin.
 
-**To open the app:**
-1.  **Right-click** (or Control-click) the `Rewind Exporter` app icon.
-2.  Select **Open** from the context menu.
-3.  Click **Open** in the dialog box that appears.
-
-You only need to do this once. After that, the app will open normally.
+**To fix this (required for first run):**
+1.  Move `Rewind Exporter` to your **Applications** folder.
+2.  Open your Terminal (Command + Space, type "Terminal").
+3.  Run the following command:
+    ```bash
+    xattr -cr /Applications/Rewind\ Exporter.app
+    ```
+4.  You can now open the app normally!
 
 ## Usage
 1.  Open the application.
